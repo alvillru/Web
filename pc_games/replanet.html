@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.js"
+			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			crossorigin="anonymous">
+		</script>
+		<script> 
+				$(function(){
+				$("#header").load("../fragments/second_header.html"); 
+				$("#footer").load("../fragments/footer.html"); 
+				});
+		</script>
+		<!-- Header -->
+		<div id="header"></div>
+	</head>
+	<body class="is-preload">
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Portfolio -->
+            <section id="portfolio" class="two">
+                <div class="container">
+
+                    <header>
+                        <h2 style="color: #1f2833; text-transform: uppercase;">Replanet</h2>
+                    </header>
+
+                    <p style="color: #1f2833;">Un pequeño juego sobre un alien cuya misión es reparar el daño que nosotros le hemos
+                        causado al planeta. Él debe poner fin a toda la contaminación y hacer de la Tierra un colorido planera de nuevo.
+					</p>
+
+					<div class="slide hi-slide">
+                        <div class="hi-prev"><i class="fas fa-chevron-left"></i></div>
+                        <div class="hi-next"><i class="fas fa-chevron-right"></i></div>
+                        <ul>
+                            <li>
+                                <img src="../images/replanet/pic_4.png" alt="">  
+                            </li>
+                            <li>
+                                <img src="../images/replanet/pic_5.png" alt="">  
+                            </li>
+                            <li>
+                                <img src="../images/replanet/pic_1.png" alt="">  
+                            </li>
+                            <li>
+                                <img src="../images/replanet/pic_2.png" alt="">  
+                            </li>
+                            <li>
+                                <img src="../images/replanet/pic_3.png" alt="">  
+                            </li>
+                        </ul>
+                    </div>
+                    </br></br><p style="color: #1f2833;">Es un proyecto que se realizó en la Global Game Jam 2020. Esta creado en Unity con C#.
+                        Fue realizado por un equipo de 7 personas.
+                    </p>
+                    
+                    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+                    <script src="../assets/js/jquery.hislide.js"></script>
+                    <script>
+                        $('.slide').hiSlide();
+                    </script>
+                </div>
+            </section>
+
+		</div>
+
+		<!-- Footer -->
+		<div id="footer"></div>
+
+		<!-- Scripts -->
+		<div id="scripts"></div>
+	</body>
+</html>
