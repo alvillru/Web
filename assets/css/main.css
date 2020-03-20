@@ -2261,13 +2261,39 @@ input, select, textarea {
 				background-color: #c5c6c7;
 			}
 
-	#portfolio .image.fit{
+	#rowindex .image.fit{
 		transform: scale(0.9);
 		transition: 0.5s;
 	}
-	#portfolio .image.fit:hover{
+	#rowindex .image.fit:hover{
 		transform: scale(1);
 	}
+
+	#rowpc h3{
+		color: #1f2833;
+		text-transform: uppercase;
+	}
+
+	#rowpc .item header{
+		background-color: transparent;
+		font-weight: bold;
+	}
+
+	#rowpc .image.fit{
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		transform: scale(0.9);
+		transition: 0.5s;
+	}
+
+	#rowpc .item{
+		box-shadow: none;
+		transform: scale(1);
+		transition: 0.5s;
+	}
+	#rowpc .item:hover{
+		transform: scale(1.1);
+	}
+
 /* Wide */
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
