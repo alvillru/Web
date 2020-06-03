@@ -6,19 +6,52 @@
 -->
 <html>
 	<head>
-		<script
-			src="https://code.jquery.com/jquery-3.3.1.js"
-			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-			crossorigin="anonymous">
-		</script>
-		<script> 
-				$(function(){
-				$("#header").load("../fragments/second_header.html"); 
-				$("#footer").load("../fragments/footer.html"); 
-				});
-		</script>
-		<!-- Header -->
-		<div id="header"></div>
+		<div id="header">
+			<title>Portfolio</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+			<link rel="stylesheet" href="../assets/css/main.css" />
+	
+				<div class="top">
+	
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="../images/avatar.jpg" alt="" /></span>
+							<h1 id="title">Alejandro Villar</h1>
+							<p>Desarrollador de Videojuegos</p>
+						</div>
+	
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="../index.html#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="../index.html#about" id="about-link"><span class="icon solid fa-user">Sobre mí</span></a></li>
+								<li><a href="../index.html#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="../index.html#contact" id="contact-link"><span class="icon solid fa-envelope">Contacto</span></a></li>
+							</ul>
+						</nav>
+	
+				</div>
+	
+				<div class="bottom">
+	
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						</ul>
+	
+				</div>
+	
+				<script type="text/javascript" src="../assets/js/jquery.min.js"></script>
+				<script type="text/javascript" src="../assets/js/jquery.scrolly.min.js"></script>
+				<script type="text/javascript" src="../assets/js/jquery.scrollex.min.js"></script>
+				<script type="text/javascript" src="../assets/js/browser.min.js"></script>
+				<script type="text/javascript" src="../assets/js/breakpoints.min.js"></script>
+				<script type="text/javascript" src="../assets/js/util.js"></script>
+				<script type="text/javascript" src="../assets/js/main.js"></script>
+		</div>
 	</head>
 	<body class="is-preload">
 		<!-- Main -->
@@ -136,7 +169,7 @@
 						</div>
 						<div class="col-4 col-12-mobile">
 							<article class="item">
-								<a href="#" class="image fit"><img src="../images/portfolio_roboenmadridrio.jpg" alt="" /></a>
+								<a href="./robo_madrid_rio.html" class="image fit"><img src="../images/robo_madrid_rio/portfolio_roboenmadridrio.jpg" alt="" /></a>
 								<header>
 									<h3>Robo en Madrid Río</h3>
 								</header>
@@ -144,9 +177,9 @@
 						</div>
 						<div class="col-4 col-12-mobile">
 							<article class="item">
-								<a href="#" class="image fit"><img src="../images/portfolio_vuela.jpg" alt="" /></a>
+								<a href="./vuela.html" class="image fit"><img src="../images/vuela/portfolio_vuela.jpg" alt="" /></a>
 								<header>
-									<h3>Vuela</h3>
+									<h3>Vuela!</h3>
 								</header>
 							</article>
 						</div>
@@ -165,7 +198,13 @@
 		</div>
 
 		<!-- Footer -->
-		<div id="footer"></div>
+		<div id="footer">
+			<!-- Copyright -->
+			<ul class="copyright">
+				<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				<li>			Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></li>
+			</ul>
+		</div>
 
 		<!-- Scripts -->
 		<div id="scripts"></div>
